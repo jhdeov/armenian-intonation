@@ -8,7 +8,7 @@ A dialogue is made up of at least a question (Q) and an answer (A). Some dialogu
 
 The question and answer were SOV sentences. The dialogues were of three types, each with a different position of focus. Focus was either on the subject, object, or verb. Dialogues also varied in the choice of the object word. The object word could have either final stress, penultimate stress, or initial stress. 
 
-File FILE has metadata on the conditions for each recorded utterance.
+File utterance-metadata (in [Excel](utterance-metadata.xlsx) and [TSV](utterance-metadata.tsv) versions) has metadata on the conditions for each recorded utterance.
 
 ## Dialogue types and focus type
 The following is the template for the dialogues. The actual recordings vary in the TARGET word for the object. Note that for Western Armenian, our speakers were from Syria. They usually didn’t aspirate. 
@@ -347,13 +347,14 @@ The TARGET word varies in its stress location. It has one of the following condi
 | Initial (s1a)        | adverb        | **su**doɾen |               | սուտօրէն    | falsely         |
 
 # Materials
-Recordings were made with 19 speakers: 10 for Eastern Armenian (5 female, 5 male) and 9 for Western Armenian (5 female, 4 male). In terms of origin, the Eastern Armenian speakers were from Yerevan, Armenia, while the Western Armenian speakers were from Aleppo, Syria. All 19 speakers were living in Yerevan during the time of the recording. 
+Recordings were made with 19 speakers: 10 for Eastern Armenian (5 female, 5 male) and 9 for Western Armenian (5 female, 4 male). In terms of origin, the Eastern Armenian speakers were from Yerevan, Armenia, while the Western Armenian speakers were from Aleppo, Syria. All 19 speakers were living in Yerevan during the time of the recording.  Speaker metadata is in file speaker-metadata (in [Excel](speaker-metadata.xlsx) and [TSV](speaker-metadata.tsv) versions).
 
-The participants were recorded reading the dialogues on a PowerPoint presentation. In our annotation, we broke up each dialogue into its component utterances (Q, A, I, N). Each utterance is found in the repository in the form of a sound file `.wav` and a Praat TextGrid `.TextGrid`.
 
-We annotated the recordings with information on quality. Most recordings had little to no disfluencies or background noise. These are found in LOCATION. 
+The participants were recorded reading the dialogues on a PowerPoint presentation. In our annotation, we broke up each dialogue into its component utterances (Q, A, I, N). Each utterance is found in the repository in the form of a sound file `.wav` and a Praat TextGrid `.TextGrid`. For now, we store the sound file and TextGrid in a [Google Drive folder](https://drive.google.com/drive/folders/1Buid6HL1Rsz21ED3tsBYJLbdivyvCVIB). We will eventually migrate the data to a more permanent storage system. 
 
-Some recorded examples however had such problems. Some problems were mild (LOCATION) and some were severe (LOCATION). We list such problems:
+We annotated the recordings with information on quality. Most recordings had little to no disfluencies or background noise. These are found in the `data-few-issues` subfolder. 
+
+Some recorded examples however had such problems. Files were annotated with the symbol `_?` if they had a mild issue (in the `data-moderate-issues` subfolder), and `_0` if they had a severe issue (in the `data-severe-issues` subfolder).  We list such problems:
 * Mild or moderate issues:
   * focus-unclear: The intonation is ambiguous.
   * laughing: The participant is laughing.
@@ -373,5 +374,4 @@ Some recorded examples however had such problems. Some problems were mild (LOCAT
 
 The recordings can be used for different purposes. We plan on using them for work on intonation phonetics and ASR. For phonetic studies, recordings with no or moderate issues can be suitable. But recordings with severe issues are not ideal or recommended. But for ASR studies, the recordings with severe issues might still be useful as a way to prevent overfitting or accommodating noisy data. 
 
-Files were annotated with the symbol `_?` if they had a mild issue, and `_0` if they had a severe issue. Files with such issues are organized into appropriate subfolders based on these issues. File FILE has metadata on the location of that utterance (sound file and TextGrid) within the repository. 
 
