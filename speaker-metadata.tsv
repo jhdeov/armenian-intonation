@@ -1,0 +1,20 @@
+Speaker ID	Dialect	Gender	Age range	Notes
+sp01	Eastern	F	18-30	Does a rise-plateau-fall pattern for S questions like in WA subject-polar questions
+sp02	Eastern	F	18-30	Sometimes her subject focus answers don't have much deaccenting so it seems like V focus, but the loudness makes it felicitiously S focus
+sp03	Eastern	F	18-30?	Doesn’t do much postfocal deaccenting
+sp04	Eastern	F	18-30	Often when the focused word has aspiration, her microphone picks up a puff of aspiration. I didn't tag it as a disfluency because it's only noticeable under high volume. Has rare cases of rising questions in non-verb focus
+sp05	Eastern	F	18-30	
+sp06	Eastern	M	18-30	Almost always elongates subjects in object-focus statements, it's his norm. The later files have a bit of hard-to-hear static that I don't count as an error but annotate
+sp07	Eastern	M	18-30	
+sp08	Eastern	M	18-30	
+sp09	Eastern	M	18-30	There's some light sounds whenever he talks, as if it's static or his jaw movements, perhaps the headset wasn't tightly placed on his head
+sp10	Eastern	M	18-30	High volumes (via earphone) create a light static that's otherwise not audible
+sp11	Western	F	30-45	
+sp12	Western	F	30-45	Likes doing phrasal pause in (S)(OV) for object focus, seems constant so we didn't annotate
+sp13	Western	F	30-45	
+sp14	Western	F	30-45	Likes long pauses in (S)(OV) subject/object focus, its her norm
+sp15	Western	F	18-30	Almost always has a phrasal pause in (S)(OV) for object focus
+sp16	Western	M	18-30	Weird buzz throughout many of the utterances, and he seems to often apply a continuation rise on verb-focus answer
+sp17	Western	M	18-30	His voice is low and his final Q-rises for S/O questions are rather weak or non-existent sometimes; his V focus answers often end in a low pitch track
+sp18	Western	M	30-45	His voice is low and his final Q-rises for S/O questions are rather weak or non-existent sometimes; his V focus answers often end in a low pitch track
+sp19	Western	M	18-30	
