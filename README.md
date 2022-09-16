@@ -380,15 +380,11 @@ Some recorded examples however had such problems. Files were annotated with the 
 # Recommendations
 
 The recordings can be used for different purposes. We plan on using them for work on intonation phonetics and ASR. For phonetic studies, recordings with no or moderate issues can be suitable. But recordings with severe issues are not ideal or recommended. But for ASR studies, the recordings with severe issues might still be useful as a way to prevent overfitting or accommodating noisy data. 
-
-------------------------
     
 # License
-
-------------------------
 
 The dataset is made available to the research community licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). 
     
 # Contact
 
-Feel free to contact us `hossep.dolatian@alumni.stonybrook.edu` if you have any questions or concerns. 
+Feel free to contact us at `hossep.dolatian@alumni.stonybrook.edu` if you have any questions or concerns. 
