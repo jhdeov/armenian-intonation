@@ -306,7 +306,7 @@ The following is the template for the dialogues. The actual recordings vary in t
 </tbody>
 </table>
 
-In the typical case, each type of question and answer sentence had its own special intonational contour, summarized in the following Table.
+In the typical case, each type of question and answer sentence had its own special intonational contour, summarized in the following table.
 
 <table class="tg">
 <thead>
