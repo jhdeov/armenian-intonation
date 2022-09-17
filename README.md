@@ -357,7 +357,7 @@ The TARGET word varies in its stress location. It has one of the following condi
 Recordings were made with 19 speakers: 10 for Eastern Armenian (5 female, 5 male) and 9 for Western Armenian (5 female, 4 male). In terms of origin, the Eastern Armenian speakers were from Yerevan, Armenia, while the Western Armenian speakers were from Aleppo, Syria. All 19 speakers were living in Yerevan during the time of the recording.  Speaker metadata is in file speaker-metadata (in [Excel](speaker-metadata.xlsx) and [TSV](speaker-metadata.tsv) versions).
 
 
-The participants were recorded reading the dialogues on a PowerPoint presentation. In our annotation, we broke up each dialogue into its component utterances (Q, A, I, N). Each utterance is found in the repository in the form of a sound file `.wav` and a Praat TextGrid `.TextGrid`. Data is in the [data](data) folder. 
+The participants were recorded reading the dialogues on a PowerPoint presentation. In our annotation, we broke up each dialogue into its component utterances (Q, A, I, N) using a [Praat script](https://www.acsu.buffalo.edu/~cdicanio/scripts/Sound_file_division.praat). Each utterance is found in the repository in the form of a sound file `.wav` and a Praat TextGrid `.TextGrid`. Data is in the [data](data) folder. 
 
 We annotated the recordings with information on quality. Most recordings had little to no disfluencies or background noise. These are found in the [data-few-issues](data/data-few-issues). 
 
