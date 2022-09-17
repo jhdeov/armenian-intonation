@@ -3,7 +3,7 @@
 This is a corpus of elicited controlled speech. The stimuli was a sequence of dialogues with intermittent fillers. This repository is for only the stimuli. The stimuli was designed to elicit intonation patterns for questions and answers in two Armenian dialects: Western Armenian (WA) and Eastern Armenian (EA). The recordings can be used for topics like intonation prosody or ASR (Automatic Speech Recognition). 
 
 
-The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs. 
+The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has orthographic forms for easier ASR uses. 
 
 If you use the data in any way, please cite us at.  
 
@@ -306,7 +306,7 @@ The following is the template for the dialogues. The actual recordings vary in t
 </tbody>
 </table>
 
-In the typical case, each type of question and answer sentence had its own special intonational contour, summarized in the following Table.
+In the typical case, each type of question and answer sentence had its own special intonational contour, summarized in the following table.
 
 <table class="tg">
 <thead>
@@ -357,7 +357,7 @@ The TARGET word varies in its stress location. It has one of the following condi
 Recordings were made with 19 speakers: 10 for Eastern Armenian (5 female, 5 male) and 9 for Western Armenian (5 female, 4 male). In terms of origin, the Eastern Armenian speakers were from Yerevan, Armenia, while the Western Armenian speakers were from Aleppo, Syria. All 19 speakers were living in Yerevan during the time of the recording.  Speaker metadata is in file speaker-metadata (in [Excel](speaker-metadata.xlsx) and [TSV](speaker-metadata.tsv) versions).
 
 
-The participants were recorded reading the dialogues on a PowerPoint presentation. In our annotation, we broke up each dialogue into its component utterances (Q, A, I, N) using a [Praat script](https://www.acsu.buffalo.edu/~cdicanio/scripts/Sound_file_division.praat). Each utterance is found in the repository in the form of a sound file `.wav` and a Praat TextGrid `.TextGrid`. Data is in the [data](data) folder. 
+The participants were recorded reading the dialogues on a PowerPoint presentation. In our annotation, we broke up each dialogue into its component utterances (Q, A, I, N) using a [Praat script](https://www.acsu.buffalo.edu/~cdicanio/scripts/Sound_file_division.praat). Each utterance is found in the repository in the form of a sound file `.wav`, a Praat TextGrid `.TextGrid`, and a transcript file `.txt`. Data is in the [data](data) folder. 
 
 We annotated the recordings with information on quality. Most recordings had little to no disfluencies or background noise. These are found in the [data-few-issues](data/data-few-issues). 
 
@@ -379,7 +379,7 @@ Some recorded examples however had such problems. Files were annotated with the 
 
 # Recommendations
 
-The recordings can be used for different purposes. We plan on using them for work on intonation phonetics and ASR. For phonetic studies, recordings with no or moderate issues can be suitable. But recordings with severe issues are not ideal or recommended. But for ASR studies, the recordings with severe issues might still be useful as a way to prevent overfitting or accommodating noisy data. 
+The recordings can be used for different purposes. We plan on using them for work on intonation phonetics and ASR. For phonetic studies, recordings with no or moderate issues can be suitable. But recordings with severe issues are not ideal or recommended. But for ASR studies, the recordings with severe issues might still be useful as a way to prevent overfitting or accommodating noisy data. The transcript files `.txt` are to make ASR tasks easier. 
     
 # License
 
