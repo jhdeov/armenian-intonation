@@ -3,7 +3,7 @@
 This is a corpus of elicited controlled speech. The stimuli was a sequence of dialogues with intermittent fillers. This repository is for only the stimuli. The stimuli was designed to elicit intonation patterns for questions and answers in two Armenian dialects: Western Armenian (WA) and Eastern Armenian (EA). The recordings can be used for topics like intonation prosody or ASR (Automatic Speech Recognition). 
 
 
-The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has the orthographic forms. 
+The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has orthographic forms for easier ASR uses. 
 
 If you use the data in any way, please cite us at.  
 
