@@ -5,7 +5,9 @@ This is a corpus of elicited controlled speech. The stimuli was a sequence of di
 
 The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has orthographic forms for easier ASR uses. Pronunciation dictionaries are provided for ASR purposes as well.  
 
-If you use the data in any way, please cite the repository with our Zenodo-provided DOI.  
+If you use the data in any way, please cite us as:
+
+> Chakmakjian, Samuel and Hossep Dolatian. 2022. *Speech corpus of Armenian question-answer dialogues*. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7088365.svg)](https://doi.org/10.5281/zenodo.7088365)  
 
 
 # Stimuli design
