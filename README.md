@@ -5,7 +5,7 @@ This is a corpus of elicited controlled speech. The stimuli was a sequence of di
 
 The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has orthographic forms for easier ASR uses. 
 
-If you use the data in any way, please cite us at.  
+If you use the data in any way, please cite the repository.  
 
 
 # Stimuli design
