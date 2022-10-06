@@ -376,14 +376,14 @@ Some recorded examples however had such problems. Files were annotated with the 
   * noise-extreme: There is extreme background noise.
   * pause-extreme: There is a long infelicitous pause in the middle of the sentence.
   * pause-noise-extreme: There is both extreme noise and a long pause. 
-  * not-template: The utterance was misread in a way that doesn’t fit into our templates, such as omitting the subject.
+  * not-template: The utterance was misread in a way that doesn't fit into our templates, such as omitting the subject.
   * stutter-or-missing-sound: The participant stuttered in speech or omitted a sound. 
 
 # Recommendations
 
 The recordings can be used for different purposes. We plan on using them for work on intonation phonetics and ASR. For phonetic studies, recordings with no or moderate issues can be suitable. But recordings with severe issues are not ideal or recommended. But for ASR studies, the recordings with severe issues might still be useful as a way to prevent overfitting or accommodating noisy data. 
 
-The transcript files `.txt` are to make ASR tasks easier. The pronunciation dictionaries for Western Armenian ([Excel](word-pronunciations-WA.xlsx) and [TSV](word-pronunciations-WA.tsv)) and Eastern Armenian ([Excel](word-pronunciations-EA.xlsx) and [TSV](word-pronunciations-EA.tsv)) are for ASR purposes. 
+The transcript files `.txt` are to make ASR tasks easier. The pronunciation dictionaries for [Western Armenian](word-pronunciations-WA.tsv) and [Eastern Armenian](word-pronunciations-EA.tsv) are for ASR purposes. 
     
 # License
 
