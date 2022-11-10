@@ -1,9 +1,9 @@
 # Speech corpus of Armenian question-answer dialogues
 
-This is a corpus of elicited controlled speech. The stimuli was a sequence of dialogues with intermittent fillers. This repository is for only the stimuli. The stimuli was designed to elicit intonation patterns for questions and answers in two Armenian dialects: Western Armenian (WA) and Eastern Armenian (EA). The recordings can be used for topics like intonation prosody or ASR (Automatic Speech Recognition). 
+This is a corpus of elicited controlled speech. The stimuli was a sequence of dialogues with intermittent fillers. This repository is for only the stimuli. The stimuli was designed to elicit intonation patterns for questions and answers in two Armenian dialects: Western Armenian (WA) and Eastern Armenian (EA). The recordings can be used for topics like intonation prosody, forced alignment, or ASR (Automatic Speech Recognition). 
 
 
-The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has orthographic forms for easier ASR uses. Pronunciation dictionaries are provided for ASR purposes as well.  
+The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has orthographic forms for easier ASR uses. Pronunciation dictionaries are provided for ASR or forced alignment purposes as well.  
 
 If you use the data in any way, please cite us as:
 
@@ -381,9 +381,9 @@ Some recorded examples however had such problems. Files were annotated with the 
 
 # Recommendations
 
-The recordings can be used for different purposes. We plan on using them for work on intonation phonetics and ASR. For phonetic studies, recordings with no or moderate issues can be suitable. But recordings with severe issues are not ideal or recommended. But for ASR studies, the recordings with severe issues might still be useful as a way to prevent overfitting or accommodating noisy data. 
+The recordings can be used for different purposes. We plan on using them for work on intonation phonetics and forced alignment. For phonetic studies, recordings with no or moderate issues can be suitable. But recordings with severe issues are not ideal or recommended. But for forced alignment, the recordings with severe issues might still be useful as a way to prevent overfitting or accommodating noisy data. 
 
-The transcript files `.txt` are to make ASR tasks easier. The pronunciation dictionaries for [Western Armenian](word-pronunciations-WA.tsv) and [Eastern Armenian](word-pronunciations-EA.tsv) are for ASR purposes. 
+The transcript files `.txt` are to make forced alignment tasks easier. The pronunciation dictionaries for [Western Armenian](word-pronunciations-WA.tsv) and [Eastern Armenian](word-pronunciations-EA.tsv) are for forced alignment purposes. 
     
 # License
 
