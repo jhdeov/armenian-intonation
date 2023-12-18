@@ -9,16 +9,18 @@ I generally followed the strategy in the [Interlingual-MFA](https://github.com/j
 
 # Code
 
-1) convert dictionary
-> python convertPronDict.py /word-pronunciations-EA.tsv  /phoneMappingFr.txt /Users/Hovsep/Desktop/pronDictIntermediate.txt
+Assume we want to use the French MFA model to align the Eastern Armenian corpus.
 
-2) validate dictionary
-> mfa validate /EA /pronDictIntermediate.txt french_mfa --ignore_acoustics
+1) Convert dictionary using as input a [pre-existing pronunciation dictionary](https://github.com/jhdeov/armenian-intonation/blob/main/word-pronunciations-EA.txt) and [phone mapping file](https://github.com/jhdeov/armenian-intonation/blob/main/alignments/phone_mapping_files/phoneMappingFr.txt), to create an intermediate pronunciation dictionary:
+> python convertPronDict.py $OriginalPronunciationDictionary.tsv $PhoneMappingFile.txt $IntermediatePronunciationDictionary.txt
 
-3) align
-> mfa align /EA  /pronDictIntermediate.txt  french_mfa /EA_Fr --clean --overwrite --Speaker_characters=4
+2) Validate the intermediate pronunciation dictionary using the [Eastern Armenian corpus](https://github.com/jhdeov/armenian-intonation/tree/main/data/data-few-issues/EA):
+> mfa validate $Corpus $IntermediatePronunciationDictionary.txt french_mfa --ignore_acoustics
 
-4) convert alignments
+3) Align the Eastern Armenian corpus with the French intermediate pronunciation dictionary. Speaker IDs are the first 4 characters in a recording's filename:
+> mfa align $Corpus $IntermediatePronunciationDictionary.txt  french_mfa /EA_Fr --clean --overwrite --Speaker_characters=4
+
+4) Convert the alignments from French to Armenian
 > python convertAlignments.py wordTranscriptions.pkl  /EA_Fr
 
 # TODOs
