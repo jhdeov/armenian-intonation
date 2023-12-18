@@ -3,7 +3,8 @@
 This is a corpus of elicited controlled speech. The stimuli was a sequence of dialogues with intermittent fillers. This repository is for only the stimuli. The stimuli was designed to elicit intonation patterns for questions and answers in two Armenian dialects: Western Armenian (WA) and Eastern Armenian (EA). The recordings can be used for topics like intonation prosody, forced alignment, or ASR (Automatic Speech Recognition). 
 
 
-The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has orthographic forms for easier ASR uses. Pronunciation dictionaries are provided for ASR or forced alignment purposes as well.  
+The dataset is is open-access at 8,852 dialogues, consisting of 23,711 utterances (individual sound files), for a total of 2.7GB and 8.5hrs.  Each utterance has a sound file, a Praat TextGrid (with full linguistic annotation), and text file that has orthographic forms for easier ASR uses. Pronunciation dictionaries are provided for ASR or forced alignment purposes as well. We genereted a forced alignment for these recordings using a cross-language alignment thanks to [Interlingual-MFA](https://github.com/jhdeov/interlingual-MFA). See the [Alignments folder](alignments).
+
 
 If you use the data in any way, please cite us as:
 
@@ -377,7 +378,9 @@ Some recorded examples however had such problems. Files were annotated with the 
   * pause-extreme: There is a long infelicitous pause in the middle of the sentence.
   * pause-noise-extreme: There is both extreme noise and a long pause. 
   * not-template: The utterance was misread in a way that doesn't fit into our templates, such as omitting the subject.
-  * stutter-or-missing-sound: The participant stuttered in speech or omitted a sound. 
+  * stutter-or-missing-sound: The participant stuttered in speech or omitted a sound.
+ 
+We provided forced alignments using for the data-few-issues recordings. See the [Alignments folder](alignments).
 
 # Recommendations
 
